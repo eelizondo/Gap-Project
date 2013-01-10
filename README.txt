@@ -1,7 +1,8 @@
 README
 About GAP Project
 
-Para cerrar, para esta prueba se requerirá como entregables: - El código de las pruebas automatizadas (en la tecnología elegida por usted)
+Para cerrar, para esta prueba se requerirá como entregables: 
+- El código de las pruebas automatizadas (en la tecnología elegida por usted)
 
 The Project was created on Java with Selenium. The file and directory structure described next:
 
