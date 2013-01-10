@@ -26,6 +26,7 @@ Gap Project
 |--------------test_Vacation_Request.java
 
 - Escritura en un documento de algunos de los escenarios de prueba (en formato de Test Cases manuales). 
+
 Find the manual - automated test cases next (Tab Test Cases - Automation):
 
 Gap Project
