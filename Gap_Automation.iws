@@ -57,19 +57,7 @@
     <favorites_list name="Gap_Automation" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="test_Vacation_Request.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gap/tests/test_Vacation_Request.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="24" selection-start="918" selection-end="918" vertical-scroll-proportion="0.2628205">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -81,11 +69,11 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/gap/tests/test_Login_Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gap/component/gap_component.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gap/component/BaseTestHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gap/tests/test_New_User.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gap/tests/test_Public_ID.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gap/tests/test_Vacation_Request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gap/component/BaseTestHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gap/component/gap_component.java" />
       </list>
     </option>
   </component>
@@ -113,7 +101,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -138,16 +126,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Gap Project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -242,6 +220,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,10 +247,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
     <property name="dynamic.classpath" value="false" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="TestNG.test_Vacation_Request.test_Gap_Vacation_Request">
     <configuration default="false" name="test_Public_ID.test_Gap_Valid_Public_ID" type="TestNG" factoryName="TestNG" temporary="true">
@@ -433,6 +421,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -458,24 +464,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -573,7 +561,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="967" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -583,16 +571,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946581" sideWeight="0.5851064" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946581" sideWeight="0.5851064" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41489363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -658,69 +646,60 @@
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/2.21.0/selenium-firefox-driver-2.21.0.jar!/org/openqa/selenium/firefox/FirefoxDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="11" selection-start="847" selection-end="847" vertical-scroll-proportion="0.3431498">
-          <folding />
-        </state>
+        <state line="21" column="11" selection-start="847" selection-end="847" vertical-scroll-proportion="0.3431498" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/2.21.0/selenium-firefox-driver-2.21.0.jar!/org/openqa/selenium/firefox/internal/NewProfileExtensionConnection.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="29" column="0" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="522" column="30" selection-start="18766" selection-end="18766" vertical-scroll-proportion="0.45475113">
-          <folding />
-        </state>
+        <state line="522" column="30" selection-start="18766" selection-end="18766" vertical-scroll-proportion="0.45475113" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gap/component/BaseTestHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="235" column="5" selection-start="6928" selection-end="6928" vertical-scroll-proportion="7.4038463">
+        <state line="22" column="13" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1986#2163#0" expanded="true" />
+            <element signature="e#2152#2153#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gap/component/gap_component.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="0" selection-start="3486" selection-end="3486" vertical-scroll-proportion="0.67948717">
+        <state line="172" column="35" selection-start="4408" selection-end="4408" vertical-scroll-proportion="0.83516484">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gap/tests/test_Login_Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="548" selection-end="548" vertical-scroll-proportion="0.4551282">
+        <state line="22" column="22" selection-start="548" selection-end="548" vertical-scroll-proportion="0.34798536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gap/tests/test_New_User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="6" selection-start="1017" selection-end="1046" vertical-scroll-proportion="0.12087912">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gap/tests/test_Public_ID.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="45" selection-start="632" selection-end="632" vertical-scroll-proportion="-0.37820512">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gap/tests/test_New_User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="6" selection-start="1017" selection-end="1046" vertical-scroll-proportion="-0.53846157">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="21" column="45" selection-start="632" selection-end="632" vertical-scroll-proportion="0.21245421">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gap/tests/test_Vacation_Request.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="24" selection-start="918" selection-end="918" vertical-scroll-proportion="0.2628205">
+        <state line="36" column="8" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.4871795">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

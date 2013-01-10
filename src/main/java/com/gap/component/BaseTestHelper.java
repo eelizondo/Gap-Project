@@ -22,24 +22,24 @@ import java.text.DateFormat;
 
 public class BaseTestHelper {
 
-    //The 'browser' itself
+    /**The 'browser' itself*/
     public WebDriver driver;
 
-    //Util Variables
+    /**Util Variables*/
     public String gap_url = "http://rocky-escarpment-5701.herokuapp.com/users/sign_in";
 
     @BeforeTest
     public void setupSelenium(){
-        //Start the browser (firefox for now)
+        /**Start the browser (firefox for now)*/
         driver = new FirefoxDriver();
 
-        //This adds implicit timeouts to the driver (instead of clickAndWait())
+        /**This adds implicit timeouts to the driver (instead of clickAndWait())*/
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @AfterTest
     public void closeSelenium(){
-        //Shutdown the browser
+        /**Shutdown the browser*/
         driver.quit();
     }
 
@@ -48,22 +48,23 @@ public class BaseTestHelper {
         setupSelenium();
     }
 
-// ***** Login *****
+// ***** Access *****
 
-    //Login to GAP
+    /**Access GAP*/
     public void access_Gap(){
         navigateToAbsoluteUrl(gap_url);
     }
 
 // ***** Navigate to URL *****
 
+    /**Navigate to URL*/
     protected void navigateToAbsoluteUrl(String url) {
         driver.navigate().to(url);
     }
 
 // ***** Is Element Displayed *****
 
-    //Return True or False if element found or not
+    /**Return True or False if element found or not*/
     protected boolean checkIfElementFound(String cssSelector) {
         return elementPresent(cssSelector).apply(driver);
     }
@@ -83,11 +84,12 @@ public class BaseTestHelper {
 
 // ***** Clicks *****
 
-    //Click over existent element
+    /**Click over existent Selector*/
     protected void click(String selector) {
         findElement(selector).click();
     }
 
+    /**Find Element by Selector*/
     protected WebElement findElement(String selector) {
         try{
             return driver.findElement(By.cssSelector(selector));
@@ -101,24 +103,27 @@ public class BaseTestHelper {
 
 // ***** Search *****
 
-    //Search
+    /**Send Key to Selector*/
     protected void sendKeys(String selector, String text) {
         this.clear(selector);
         findElement(selector).sendKeys(text);
     }
 
+    /**Clear Selector*/
     protected void clear(String selector) {
         findElement(selector).clear();
     }
 
 // ***** GetText *****
 
+    /**Return Text from Selector*/
     protected String getText(String selector) {
         return findElement(selector).getText().toUpperCase().trim();
     }
 
 // ***** Pause *****
 
+    /**Generate a pause*/
     public void pause(Integer seconds){
         try {
             Thread.sleep(seconds*1000);
@@ -129,18 +134,21 @@ public class BaseTestHelper {
 
 // ***** Random Email *****
 
+    /**Return Random Email*/
     public static String randomizeEmail(String email) {
         String part1 = email.substring(0, email.indexOf("@"));
         String randomEmail = part1 + RandomStringUtils.randomAlphanumeric(6) + email.substring(email.indexOf("@"), email.length());
         return randomEmail.toLowerCase();
     }
 
+    /**Return Random Data*/
     public static String randomizeData(String dato) {
         int numeroAleatorio = (int) (Math.random()*25+1);
         String randomData = dato + numeroAleatorio;
         return randomData.toLowerCase();
     }
 
+    /**Select Random Item from Drop Down*/
     public String selectRandomOptionInSelect(String selector) {
         //if (checkIfElementFound(selector)) {
         Select dropDown = new Select(findElement(selector));
@@ -164,6 +172,7 @@ public class BaseTestHelper {
 
     }
 
+    /**Return Random Int*/
     protected int randomInt(int max) {
         int result = RandomUtils.nextInt(max) + 1;// - 1
         if (result == max) {
@@ -174,6 +183,7 @@ public class BaseTestHelper {
 
 // ***** Dates *****
 
+    /**Return TODAY day*/
     protected String dateToday() {
 
         // Create an instance of SimpleDateFormat used for formatting
@@ -191,6 +201,7 @@ public class BaseTestHelper {
 
     }
 
+    /**Return TODAY day + 20 Random more Days*/
     protected String dateSince(){
 
         Date date = Calendar.getInstance().getTime();
@@ -213,6 +224,7 @@ public class BaseTestHelper {
 
     }
 
+    /**Return TODAY day + 60 Random more Days*/
     protected String dateUntil(){
 
         Date date = Calendar.getInstance().getTime();
