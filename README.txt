@@ -1,5 +1,6 @@
 README
 About GAP Project
+Autor: Edber Elizondo
 
 Para cerrar, para esta prueba se requerirá como entregables: 
 - El código de las pruebas automatizadas (en la tecnología elegida por usted)
