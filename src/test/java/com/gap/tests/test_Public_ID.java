@@ -12,7 +12,7 @@ import static org.testng.Assert.assertTrue;
  OK - Navigate to http://rocky-escarpment-5701.herokuapp.com/users/sign_in
  OK - Validate Correct page displayed
  OK - Click public site link
- OK - Enter User ID [ 1234567890 ]
+ OK - Enter User ID [ 123456789 ]
  OK - Click Find Employee
  OK - Validate Data Displayed Match User Data
 

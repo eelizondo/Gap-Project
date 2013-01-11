@@ -58,10 +58,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="45" selection-start="1578" selection-end="1578" vertical-scroll-proportion="1.0049628">
+            <state line="53" column="18" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_Public_ID.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gap/tests/test_Public_ID.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="31" selection-start="394" selection-end="394" vertical-scroll-proportion="0.08424909">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gap_component.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gap/component/gap_component.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="46" selection-start="233" selection-end="242" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,11 +98,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/gap/tests/test_Login_Account.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gap/tests/test_New_User.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gap/tests/test_Public_ID.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gap/tests/test_Vacation_Request.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gap/component/BaseTestHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gap/component/gap_component.java" />
         <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gap/tests/test_Public_ID.java" />
       </list>
     </option>
   </component>
@@ -127,30 +145,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gap_Automation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gap Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -241,6 +235,30 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gap_Automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gap Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,10 +276,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
     <property name="dynamic.classpath" value="false" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="TestNG.test_Vacation_Request.test_Gap_Vacation_Request">
     <configuration default="false" name="test_Public_ID.test_Gap_Valid_Public_ID" type="TestNG" factoryName="TestNG" temporary="true">
@@ -432,6 +450,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -457,24 +493,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -675,42 +693,38 @@
         <state line="22" column="13" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gap/component/gap_component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="35" selection-start="4408" selection-end="4408" vertical-scroll-proportion="0.83516484" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gap/tests/test_Login_Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="22" column="22" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gap/tests/test_New_User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="6" selection-start="1017" selection-end="1046" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gap/tests/test_Public_ID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="385" selection-end="395" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="36" column="6" selection-start="1017" selection-end="1046" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gap/tests/test_Vacation_Request.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="8" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.5860806">
+        <state line="36" column="8" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.5860806" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gap/component/gap_component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="46" selection-start="233" selection-end="242" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="45" selection-start="1578" selection-end="1578" vertical-scroll-proportion="1.0049628">
+        <state line="53" column="18" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gap/tests/test_Public_ID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="394" selection-end="394" vertical-scroll-proportion="0.08424909">
           <folding />
         </state>
       </provider>
